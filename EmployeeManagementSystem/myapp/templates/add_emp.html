@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Add Employee</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <style>
+        body {
+            background-color: #f8f9fa;
+        }
+        .container {
+            max-width: 500px;
+            margin-top: 25px;
+            padding: 20px;
+            background-color: lightcyan;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px hsla(0, 84.60%, 48.20%, 0.10);
+        }
+        h2 {
+            text-align: center;
+            color:rgb(0, 34, 255);
+        }
+        .form-group {
+            margin-bottom: 20px;
+        }
+        .btn-primary {
+            width: 100%;
+            padding: 8px;
+            font-size: 20px;
+        }
+        label {
+            font-weight: 500;
+        }
+        hr {
+            height: 2px; 
+            background-color: black; 
+            border: none; 
+          }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Add an Employee</h2><hr><br>
+        <form method="POST">
+          {% csrf_token %}
+          <!-- First Name -->
+          <div class="form-group">
+              <label for="first_name">First Name</label>
+              <input type="text" id="first_name" name="first_name" class="form-control" required>
+          </div>
+          <!-- Last Name -->
+          <div class="form-group">
+              <label for="last_name">Last Name</label>
+              <input type="text" id="last_name" name="last_name" class="form-control" required>
+          </div>
+          <!-- Salary -->
+          <div class="form-group">
+              <label for="salary">Salary</label>
+              <input type="number" id="salary" name="salary" class="form-control" required>
+          </div>
+          <!-- Bonus -->
+          <div class="form-group">
+            <label for="bonus">Bonus</label>
+            <input type="number" id="bonus" name="bonus" class="form-control" required>
+          </div>
+          <div class="form-group">
+            <label for="phone">Phone Number</label>
+            <input type="tel" id="phone" name="phone" class="form-control" required>
+          </div>
+          <!-- Role -->
+          <div class="form-group">
+              <label for="role">Role</label>
+              <div class="input-group">
+                  <select id="role" name="role" class="form-control">
+                      <option value="" disabled selected>Please Select</option>
+                      {% for role in roles %}
+                          <option value="{{ role.id }}">{{ role.role }}</option>
+                      {% endfor %}
+                  </select>
+                  <input type="text" id="new_role" name="new_role" class="form-control" placeholder="Enter New Role...">
+              </div>
+          </div>
+          <!-- Department -->
+          <div class="form-group">
+              <label for="dept_no">Department_No.</label>
+              <div class="input-group">
+                  <select id="dept_no" name="dept_no" class="form-control">
+                      <option value="" disabled selected>Please Select</option>
+                      {% for department in departments %}
+                          <option value="{{ department.id }}">{{ department.dept_no }}</option>
+                      {% endfor %}
+                  </select>
+                  <input type="text" id="new_dept" name="new_dept" class="form-control" placeholder="Enter New Dept_No....">
+              </div>
+          </div>
+          <div class="form-group">
+              <label for="location">Location</label>
+              <input type="text" id="location" name="location" class="form-control" required>
+          </div>
+          <div class="form-group">
+            <label for="hire_date">Hiring Date</label>
+            <input type="date" id="hire_date" name="hire_date" class="form-control" required>
+        </div><br>
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+    </div>
+</body>
+</html>
