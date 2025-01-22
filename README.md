@@ -2,10 +2,7 @@
 
 This is a Full Stack Project named Office Employee Management System using Python, SQL and Django framework.
 
-The Employee Management System is a web-based platform designed to streamline employee management tasks. It allows employees to register, login, and access their profiles, work
-schedules, and company updates. The platform offers features like task management, attendance tracking, leave requests, and access to internal resources and announcements. 
-Built using technologies like Python for backend, (HTML, CSS, JS) for frontend, Django as the framework, and MySQL for database management, the project emphasizes user-friendly 
-navigation, secure authentication, and scalability for organizations.
+The Employee Management System is a web-based platform designed to streamline employee management tasks. It allows employees to register, login, and offers features like add, remove, filter and view the data of employees. Built using technologies like Python for backend, (HTML, CSS, JS) for frontend, Django as the framework, and MySQL for database management, the project emphasizes user-friendly navigation, secure authentication, and scalability for organizations.
 
 # Register
 <img width="937" alt="Screenshot 2025-01-22 191351" src="https://github.com/user-attachments/assets/bac732f8-c901-403d-ab86-ac117c6cb49d" />
