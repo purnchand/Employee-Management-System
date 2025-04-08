@@ -1,26 +1,30 @@
 # Office Employee Management System
 
-This is a Full Stack Project named Office Employee Management System designed using Python, SQL and Django framework.
+This is a Full Stack Project named Office Employee Management System designed using HTML, CSS, JavaScript, Python, SQLite and Django framework.
 
-The Employee Management System is a web-based platform designed to streamline employee management tasks. It allows employees to register, login, and offers features like add, remove, filter and view the data of employees. Built using technologies like Python for backend, (HTML, CSS, JS) for frontend, Django as the framework, and MySQL for database management, the project emphasizes user-friendly navigation, secure authentication, and scalability for organizations.
+The Employee Management System is a web-based platform designed to streamline employee-related tasks for small to mid-sized organizations. It provides functionalities user authentication such as user registration, login/logout, and complete CRUD operations for employee data (Create, Read, Update, Delete). Users can add new employees, edit existing records, remove employees, download employee's resumes and filter or search employee details based on various criteria.
 
 # Register
-<img width="937" alt="Screenshot 2025-01-22 191351" src="https://github.com/user-attachments/assets/bac732f8-c901-403d-ab86-ac117c6cb49d" />
+<img width="949" alt="Screenshot 2025-04-08 170118" src="https://github.com/user-attachments/assets/d90ae605-b132-4f39-945b-57d2821ca38c" />
 
 # Login
-<img width="937" alt="Screenshot 2025-01-22 191440" src="https://github.com/user-attachments/assets/69df582e-648a-4dff-a68f-6125d5b8f1e1" />
+<img width="946" alt="Screenshot 2025-04-08 170143" src="https://github.com/user-attachments/assets/11b29a26-5f35-4bac-82da-c580b89b79d9" />
 
 # Home Page
-<img width="960" alt="Screenshot 2025-01-22 190740" src="https://github.com/user-attachments/assets/898aab3d-b8e2-442f-bec5-e6b42d415f07" />
+<img width="960" alt="Screenshot 2025-04-08 170046" src="https://github.com/user-attachments/assets/597f6c80-08a7-47cb-9dbf-1a87f4d70440" />
 
-# Filter Emplyoees
-<img width="960" alt="Screenshot 2025-01-22 190824" src="https://github.com/user-attachments/assets/ab129b32-e87f-4234-a71e-2e2f6f198e2f" />
-
-# Remove Employees
-<img width="960" alt="Screenshot 2025-01-22 190846" src="https://github.com/user-attachments/assets/528eebd0-1611-4b54-b08a-66c708247e05" />
-
-# All Employees
-<img width="960" alt="Screenshot 2025-01-22 190902" src="https://github.com/user-attachments/assets/5e2b29f8-c4a0-4c64-8041-c8a6e3f0803d" />
+# All Emplyoees
+<img width="960" alt="Screenshot 2025-04-08 170205" src="https://github.com/user-attachments/assets/df81fb7c-8e89-4ad0-8fd0-e0528ea55a58" />
 
 # Add Employees
-<img width="934" alt="Screenshot 2025-01-22 190949" src="https://github.com/user-attachments/assets/33a70364-d950-426c-a574-e48f656ddae0" />
+<img width="948" alt="Screenshot 2025-04-08 170349" src="https://github.com/user-attachments/assets/6ba0486b-faf9-4e46-b9b6-f13ef52b1539" />
+
+# Edit Employees
+<img width="946" alt="Screenshot 2025-04-08 170320" src="https://github.com/user-attachments/assets/e67049ba-1112-4222-a695-af62055368da" />
+
+# Remove Employees
+<img width="959" alt="Screenshot 2025-04-08 170443" src="https://github.com/user-attachments/assets/778d14ac-e957-47ad-91de-4d9b1645c33e" />
+
+# Filter Employees
+<img width="959" alt="Screenshot 2025-04-08 170432" src="https://github.com/user-attachments/assets/38320b82-4875-40e6-b21d-c9753e69c397" />
+
